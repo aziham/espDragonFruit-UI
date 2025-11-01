@@ -1,6 +1,8 @@
-import { Route, Switch, Link } from 'wouter-preact';
+import { Link } from '@/components/link';
 import { Routes } from '@/config/routes';
-import { NotFoundPage, HomePage, DashboardPage, SettingsPage } from '@/pages';
+import { DashboardPage, HomePage, NotFoundPage, SettingsPage } from '@/pages';
+import { Info, RouteIcon } from 'lucide-preact';
+import { Route, Switch } from 'wouter-preact';
 
 export default function App() {
   return (
@@ -9,13 +11,20 @@ export default function App() {
         <ul className='flex gap-5'>
           {Object.entries(Routes).map(([name, url]) => (
             <li>
-              <Link className={(active) => active && 'underline'} href={url}>
-                {name.toUpperCase()}
+              <Link
+                className='flex gap-2'
+                activeClassName='border-b pb-1'
+                to={url}
+              >
+                <RouteIcon /> {name.toUpperCase()}
               </Link>
             </li>
           ))}
           <li>
-            <Link href='/about'>About</Link>
+            <Link to='/about' className='flex gap-2'>
+              {' '}
+              <Info /> About
+            </Link>
           </li>
         </ul>
       </nav>

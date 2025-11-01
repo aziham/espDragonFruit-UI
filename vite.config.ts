@@ -1,7 +1,7 @@
-import { defineConfig } from 'vite';
-import tailwindcss from '@tailwindcss/vite';
 import preact from '@preact/preset-vite';
+import tailwindcss from '@tailwindcss/vite';
 import { fileURLToPath, URL } from 'node:url';
+import { defineConfig } from 'vite';
 
 export default defineConfig({
   plugins: [preact(), tailwindcss()],

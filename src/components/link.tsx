@@ -1,8 +1,8 @@
+import { ComponentChildren, MouseEventHandler } from 'preact';
 import {
   Link as WouterLink,
   LinkProps as WouterLinkProps
 } from 'wouter-preact';
-import { ComponentChildren, MouseEventHandler } from 'preact';
 
 type LinkProps = WouterLinkProps & {
   children: ComponentChildren;
