@@ -8,7 +8,8 @@
 	},
 	"dependencies": {
 		"preact": "^10.26.9",
-		"wouter-preact": "^3.7.1"
+		"wouter-preact": "^3.7.1",
+		"zustand": "^5.0.8"
 	},
 	"devDependencies": {
 		"@preact/preset-vite": "^2.10.2",
