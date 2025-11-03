@@ -1,4 +1,4 @@
-export { DashboardPage } from './dashboard';
-export { HomePage } from './home';
-export { NotFoundPage } from './not-found';
-export { SettingsPage } from './settings';
+export * from './dashboard';
+export * from './home';
+export * from './not-found';
+export * from './settings';
