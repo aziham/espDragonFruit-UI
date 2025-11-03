@@ -8,6 +8,7 @@
 	},
 	"dependencies": {
 		"preact": "^10.26.9",
+		"swr": "^2.3.6",
 		"wouter-preact": "^3.7.1",
 		"zustand": "^5.0.8"
 	},
