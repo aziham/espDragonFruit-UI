@@ -1,25 +1,29 @@
 {
-	"private": true,
-	"type": "module",
-	"scripts": {
-		"dev": "vite",
-		"build": "vite build",
-		"preview": "vite preview"
-	},
-	"dependencies": {
-		"preact": "^10.26.9",
-		"swr": "^2.3.6",
-		"wouter-preact": "^3.7.1",
-		"zustand": "^5.0.8"
-	},
-	"devDependencies": {
-		"@preact/preset-vite": "^2.10.2",
-		"@tailwindcss/vite": "^4.1.16",
-		"@types/node": "^24.9.2",
-		"daisyui": "^5.3.10",
-		"lucide-preact": "^0.552.0",
-		"tailwindcss": "^4.1.16",
-		"typescript": "^5.9.3",
-		"vite": "^7.0.4"
-	}
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@aziham/chartjs-plugin-streaming": "^3.4.0",
+    "chart.js": "^4.5.1",
+    "chartjs-adapter-luxon": "^1.3.1",
+    "luxon": "^3.7.2",
+    "preact": "^10.27.2",
+    "swr": "^2.3.6",
+    "wouter-preact": "^3.7.1",
+    "zustand": "^5.0.8"
+  },
+  "devDependencies": {
+    "@preact/preset-vite": "^2.10.2",
+    "@tailwindcss/vite": "^4.1.16",
+    "@types/node": "^24.10.0",
+    "daisyui": "^5.4.4",
+    "lucide-preact": "^0.552.0",
+    "tailwindcss": "^4.1.16",
+    "typescript": "^5.9.3",
+    "vite": "^7.2.0"
+  }
 }
